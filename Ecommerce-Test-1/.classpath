@@ -16,5 +16,6 @@
 	<classpathentry kind="lib" path="C:/Users/User/Downloads/selenium-java-3.8.1/libs/guava-23.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/User/Downloads/selenium-java-3.8.1/libs/httpclient-4.5.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/User/Downloads/selenium-java-3.8.1/libs/httpcore-4.4.6.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
