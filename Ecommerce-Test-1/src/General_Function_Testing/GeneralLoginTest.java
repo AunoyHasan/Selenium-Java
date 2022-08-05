@@ -14,7 +14,6 @@ public class GeneralLoginTest {
 		///navigating google website
 		//driver.get("http://www.google.com");
 		
-		
 		//navigating google website
 		driver.get("http://127.0.0.1:8000");
 		
