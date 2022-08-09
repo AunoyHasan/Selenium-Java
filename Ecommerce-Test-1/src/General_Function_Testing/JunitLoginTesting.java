@@ -20,14 +20,16 @@ public class JunitLoginTesting {
 			WebElement element = driver.findElement(By.xpath("//a[contains(@href, 'login')]"));
 			element.click();
 			
-			driver.findElement(By.xpath("//*[@id=\"phone\"]")).sendKeys("123456");
-			driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("1234");	
+			driver.findElement(By.xpath("//*[@id=\"phone\"]")).sendKeys("01999999999");
+			driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("123456");	
 			driver.findElement(By.xpath("//*[@id=\"login\"]")).click();
 			
 			WebElement myCart = driver.findElement(By.xpath("//a[contains(@href, 'mycart')]"));
 			String myCart_text = myCart.getText();
 			
 			Assert.assertEquals("My Cart", myCart_text);
+			//driver.quit();
+			//driver.close();
 		}
 	//}
 
