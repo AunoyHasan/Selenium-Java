@@ -21,7 +21,7 @@ public class JunitLoginTesting {
 			element.click();
 			
 			driver.findElement(By.xpath("//*[@id=\"phone\"]")).sendKeys("01999999999");
-			driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("123456");	
+			driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("1234567");	
 			driver.findElement(By.xpath("//*[@id=\"login\"]")).click();
 			
 			WebElement myCart = driver.findElement(By.xpath("//a[contains(@href, 'mycart')]"));
